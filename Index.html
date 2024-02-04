@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Cloud Education</title>
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -105,31 +109,321 @@
       </div>
     </section>
     <article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-      repellendus dignissimos amet magnam ducimus rem laudantium doloribus at
-      nobis libero dicta, recusandae distinctio, numquam consequatur eum ut
-      dolores aliquid quasi.
-    </article>
-    <article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-      repellendus dignissimos amet magnam ducimus rem laudantium doloribus at
-      nobis libero dicta, recusandae distinctio, numquam consequatur eum ut
-      dolores aliquid quasi.
-    </article><article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-      repellendus dignissimos amet magnam ducimus rem laudantium doloribus at
-      nobis libero dicta, recusandae distinctio, numquam consequatur eum ut
-      dolores aliquid quasi.
-    </article><article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-      repellendus dignissimos amet magnam ducimus rem laudantium doloribus at
-      nobis libero dicta, recusandae distinctio, numquam consequatur eum ut
-      dolores aliquid quasi.
-    </article><article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-      repellendus dignissimos amet magnam ducimus rem laudantium doloribus at
-      nobis libero dicta, recusandae distinctio, numquam consequatur eum ut
-      dolores aliquid quasi.
+      <div class="showing-result">
+        <h5 class="text">
+          <span class="text1">Showing results for </span>
+          <span class="text2">All Colleges and Universities</span>
+        </h5>
+      </div>
+      <div class="Sort-by">
+        <h5>Sort By:</h5>
+        <button>
+          <span>Fee(low-high)</span>
+          <select></select>
+        </button>
+      </div>
+      <hr1 />
+      <div class="colleges">
+        <div class="card card1">
+          <img src="Images/Melbourne.png" alt="" />
+          <h2><span class="Technology1">
+            Melbourne Insitute of
+          </span> 
+           <span class="Technology2"><br/>Technology</span></h2>
+          <h4>Sydney, Australia</h4>
+          <span onclick="Toggle1(this)" id="btnh1" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card1-content">
+            <h4>Course Name</h4>
+            <h2><span >Master of Technology(Enterprise Systems and <br /></span>
+            <span>Business Analytics)</span>
+            </h2>
+          </div>
+          <div class="card1-content1">
+            <h2>AUD 20,000</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+
+        </div>
+        <div class="card card2">
+          <img src="Images/central uni.png" alt="">
+          <h2><span class="Technology1">
+            Central Queensland
+          </span> 
+           <span class="Technology2"><br/>University</span></h2>
+          <h4>New South Wales, Australia</h4>
+          <span onclick="Toggle1()" id="btnh2" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card2-content">
+            <h4>Course Name</h4>
+            <h2><span >Master of Business Administration(Coursework)</span>
+    
+            </h2>
+          </div>
+          <div class="card2-content1">
+            <h2>AUD 39,500</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+        </div>
+        <div class="card card3">
+          <img src="Images/swin.png" alt="">
+          <h2><span class="Technology1">
+            Swinburne University of
+          </span> 
+           <span class="Technology2"><br/>Technology</span></h2>
+          <h4>Vancouver, Canada</h4>
+          <span onclick="Toggle1()" id="btnh3" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card3-content">
+            <h4>Course Name</h4>
+            <h2><span >Graduate Diploma in Early Chilhood </span>
+            <span>Education (Extension)</span>
+            </h2>
+          </div>
+          <div class="card3-content1">
+            <h2>AUD 20,000</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+        </div>
+        <div class="card card4">
+          <img src="Images/central uni.png" alt="">
+          <h2><span class="Technology1">
+            Central Queensland
+          </span> 
+           <span class="Technology2"><br/>University</span></h2>
+          <h4>New South Wales, Australia</h4>
+          <span onclick="Toggle1()" id="btnh4" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card4-content">
+            <h4>Course Name</h4>
+            <h2><span>Master in Information and Communication<br /></span>
+            <span>Technology</span>
+            </h2>
+          </div>
+          <div class="card4-content1">
+            <h2>AUD 39,500</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+        </div>
+        <div class="card card5">
+          <img src="Images/griff.png" alt="">
+          <h2><span class="Technology1">
+            Griffith University
+          </span> 
+          <h4>Nova Scotia, Canada</h4>
+          <span onclick="Toggle1()" id="btnh5" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card5-content">
+            <h4>Course Name</h4>
+            <h2><span >Bachelor of Arts in Anthropology</span>
+            </h2>
+          </div>
+          <div class="card5-content1">
+            <h2>CAD 39,500</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>4 Year</h5>
+          </div>
+        </div>
+        <div class="card card6">
+          <img src="Images/griff.png" alt="">
+          <h2><span class="Technology1">
+            Griffith University
+          </span> 
+          <h4>Queensland, Australia</h4>
+          <span onclick="Toggle1()" id="btnh6" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card6-content">
+            <h4>Course Name</h4>
+            <h2><span >Master of Audio Engineering and Sound Production</span>
+            <span>(Coursework)</span>
+            </h2>
+          </div>
+          <div class="card6-content1">
+            <h2>AUD 39,500</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+        </div>
+        <div class="card card7">
+          <img src="Images/Melbourne.png" alt="">
+          <h2><span class="Technology1">
+            Melbourne Insitute of
+          </span> 
+           <span class="Technology2"><br/>Technology</span></h2>
+          <h4>Sydney, Australia</h4>
+          <span onclick="Toggle1()" id="btnh7" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card7-content">
+            <h4>Course Name</h4>
+            <h2><span >Master of Technology (Enterprise Systems and<br /></span>
+            <span>BUsiness Analytics)</span>
+            </h2>
+          </div>
+          <div class="card7-content1">
+            <h2>AUD 20,000</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+        </div>
+        <div class="card card8">
+          <img src="Images/central uni.png" alt="">
+          <h2><span class="Technology1">
+            Swinburne University of
+          </span> 
+           <span class="Technology2"><br/>Technology</span></h2>
+          <h4>Washington, USA</h4>
+          <span onclick="Toggle1()" id="btnh8" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card8-content">
+            <h4>Course Name</h4>
+            <h2><span >Master of Business Administration</span>
+            </h2>
+          </div>
+          <div class="card8-content1">
+            <h2>USD 39,500</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+        </div>
+        <div class="card card9">
+          <img src="Images/swin.png" alt="">
+          <h2><span class="Technology1">
+            Swinburne University of
+          </span> 
+           <span class="Technology2"><br/>Technology</span></h2>
+          <h4>Victoria, Australia</h4>
+          <span onclick="Toggle1()" id="btnh9" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card9-content">
+            <h4>Course Name</h4>
+            <h2><span >Graduate Diploma in Early Chilhood Education<br /></span>
+            <span>(Extension)</span>
+            </h2>
+          </div>
+          <div class="card9-content1">
+            <h2>AUD 38,614</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>1 Year</h5>
+          </div>
+        </div>
+        <div class="card card10">
+          <img src="Images/UNI.png" alt="">
+          <h2><span class="Technology1">
+           University of Southern
+          </span> 
+           <span class="Technology2"><br/>Queensland</span></h2>
+          <h4>Toronto, Canada</h4>
+          <span onclick="Toggle1()" id="btnh10" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card10-content">
+            <h4>Course Name</h4>
+            <h2><span >Master in Information and Communication<br /></span>
+            <span>Technology</span>
+            </h2>
+          </div>
+          <div class="card10-content1">
+            <h2>CAD 27,800</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+        </div>
+        <div class="card card11">
+          <img src="Images/Dur.png" alt="">
+          <h2><span class="Technology1">
+             University of the Sunshine
+          </span> 
+           <span class="Technology2"><br/>Cost</span></h2>
+          <h4>Queensland, Australia</h4>
+          <span onclick="Toggle1()" id="btnh11" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card11-content">
+            <h4>Course Name</h4>
+            <h2><span >Bachelor of Arts in Anthropology</span>
+            </h2>
+          </div>
+          <div class="card11-content1">
+            <h2>AUD 50,500</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>3 Year</h5>
+          </div>
+        </div>
+        <div class="card card12">
+          <img src="Images/griff.png" alt="">
+          <h2><span class="Technology1">
+            Griffith University 
+          </span> 
+          <h4>Queensland, Australia</h4>
+          <span onclick="Toggle1()" id="btnh12" class="btn">
+            <i class="fas fa-heart"></i>
+          </span>
+          <hr />
+          <div class="card12-content">
+            <h4>Course Name</h4>
+            <h2><span >Master of Audio Engineering and Sounf Production</span>
+            <span>(Coursework)</span>
+            </h2>
+          </div>
+          <div class="card12-content1">
+            <h2>AUD 39,500</h2>
+            <h3>Duration</h3>
+            <h4>Fee per Year</h4>
+            <h5>2 Year</h5>
+          </div>
+        </div>
+      </div>
+      <div class="Showing-Page">
+        <div class="left-side">
+          <h5> Showing 1 to 12 of 100 results</h5>
+        </div>
+        <div class="right-side">
+          <h5>Prev
+            <span class="one">1</span>
+            <span class="second">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <span class="dot">
+              ... 
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100</span>
+            <span class="last">Next</span>
+          </h5>
+          
+        </div>
+      </div>
     </article>
 
     <footer class="footer">
@@ -174,11 +468,36 @@
         Copyright © 2024 Cloud Education. All rights reserved.
       </p>
       <div class="social-icons">
-        <span><img src="Images/FB.png" alt=""></span>
-        <span><img src="Images/Twitter.png" alt=""></span>
-        <span><img src="Images/youtube.png" alt=""></span>
-        <span><img src="Images/Linkdein.png" alt=""></span>
+        <span><img src="Images/FB.png" alt="" /></span>
+        <span><img src="Images/Twitter.png" alt="" /></span>
+        <span><img src="Images/youtube.png" alt="" /></span>
+        <span><img src="Images/Linkdein.png" alt="" /></span>
       </div>
     </footer>
+    <script>
+
+var btnElements = document.querySelectorAll('#btnh1, #btnh2, #btnh3, #btnh4, #btnh5, #btnh6, #btnh7, #btnh8, #btnh9, #btnh10, #btnh11, #btnh12');
+
+for (let i = 1; i <= 12; i++) {
+    let btnId = 'btnh' + i;
+    let btn = document.getElementById(btnId);
+
+    // Add a click event listener to each button
+    btn.addEventListener('click', function() {
+        Toggle1(btn);
+    });
+}
+
+function Toggle1(btn) {
+    if (btn.style.color === "red") {
+        btn.style.color = "grey";
+    } else {
+        btn.style.color = "red";
+    }
+}
+
+
+</script>
+
   </body>
 </html>

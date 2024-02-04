@@ -1,14 +1,16 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 300vh;
   font-family: "Noto Sans", sans-serif;
 }
 
 header {
   background-color: white;
-  padding: 10px;
+  padding: 10px ;
   top: 0;
   position: sticky;
+  z-index: 1000;
 }
 
 nav {
@@ -156,7 +158,7 @@ section {
   display: flex;
   position: absolute;
   justify-content: center;
-  margin-left: 90px;
+  margin-left: 85px;
   top: 340px;
   height: 184px;
   width: 1305px;
@@ -273,10 +275,669 @@ select {
   border: none;
   color: #2c2f3a;
 }
-footer {
+.showing-result {
+  display: flex;
+}
+.text {
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 90px;
+}
+.text1 {
+  width: 100px;
+  color: #60677f;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+}
+.text2 {
+  position: absolute;
+  width: 250px;
+  margin-top: 20px;
+  left: 0px;
+  color: #2c2f3a;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Noto Sans";
+  right: 0px;
+}
+.Sort-by {
+  display: flex;
+}
+.Sort-by h5 {
+  position: absolute;
+  font-size: 16px;
+  color: #60677f;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+  margin: 190px 10px 100px 1150px;
+}
+.Sort-by button {
+  position: absolute;
+  margin: 200px 10px 10px 1215px;
+  border-radius: 8px;
+  border: 1px solid #60677f;
+  height: 40px;
+  width: 177px;
+  bottom: 9px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.Sort-by button:hover {
+  transform: scale(1.01);
+}
+.Sort-by button span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2c2f3a;
+  font-family: "Noto Sans", sans-serif;
+}
+.Sort-by button select {
+  margin-left: 30px;
+}
+hr1 {
+  position: absolute;
+  width: 88.5%;
+  border-bottom: 1.5px solid #d1d3dc;
+  top: 750px;
+  left: 90px;
+}
+/* ----- This is css For card colleges -----*/
+
+.colleges {
+  position: absolute;
+  display: grid;
+  margin-left: 90px;
+  top: 30px;
+  right: 66px;
+  bottom: 1200px;
+  width: 1216px;
+  margin: 20px;
+  grid-template-columns: repeat(3, 5fr);
+  gap: 44px 44px;
+}
+
+.card {
+  height: 284px;
+  width: 384px;
+  border-radius: 12px;
+  border: 1px solid #d1d3dc;
+  padding: 10px;
+  cursor: pointer;
+}
+.card1 h2,
+h4,
+.love-icon {
+  position: relative;
+}
+.card1 img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card1 h2 {
+  margin-top: 23px;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #2c2f3a;
+  margin-left: 90px;
+  bottom: 98px;
+}
+.Technology2 {
+  position: absolute;
+  margin-top: 8px;
+  right: 205px;
+}
+.card1 h4 {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #60677f;
+  margin-left: 90px;
+  bottom: 80px;
+}
+
+.card1 .btn i {
+  position: absolute;
+  top: 25px;
+  font-size: 20px;
+  right: 830px;
+  height: 10px;
+}
+.card2 .btn i {
+  position: absolute;
+  top: 25px;
+  font-size: 20px;
+  right: 380px;
+  height: 10px;
+}
+.card3 .btn i {
+  position: absolute;
+  top: 25px;
+  font-size: 20px;
+  left: 1260px;
+  height: 10px;
+}
+.card4 .btn i {
+  position: absolute;
+  top: 370px;
+  font-size: 20px;
+  left: 370px;
+  height: 10px;
+}
+.card5 .btn i {
+  position: absolute;
+  top: 370px;
+  font-size: 20px;
+  left: 815px;
+  height: 10px;
+}
+.card6 .btn i {
+  position: absolute;
+  top: 370px;
+  font-size: 20px;
+  left: 1263px;
+  height: 10px;
+}
+.card7 .btn i {
+  position: absolute;
+  top: 725px;
+  font-size: 20px;
+  left: 360px;
+  height: 10px;
+}
+.card8 .btn i {
+  position: absolute;
+  top: 725px;
+  font-size: 20px;
+  left: 815px;
+  height: 10px;
+}
+.card9 .btn i {
+  position: absolute;
+  top: 725px;
+  font-size: 20px;
+  left: 1265px;
+  height: 10px;
+}
+.card10 .btn i {
+  position: absolute;
+  top: 1070px;
+  font-size: 20px;
+  left: 360px;
+  height: 10px;
+}
+.card11 .btn i {
+  position: absolute;
+  top: 1070px;
+  font-size: 20px;
+  left: 810px;
+  height: 10px;
+}
+.card12 .btn i {
+  position: absolute;
+  top: 1070px;
+  font-size: 20px;
+  left: 1260px;
+  height: 10px;
+}
+.card1 .btn i:hover,
+.card2 .btn i:hover,
+.card3 .btn i:hover,
+.card4 .btn i:hover,
+.card5 .btn i:hover,
+.card6 .btn i:hover,
+.card7 .btn i:hover,
+.card8 .btn i:hover,
+.card9 .btn i:hover,
+.card10 .btn i:hover,
+.card11 .btn i:hover,
+.card12 .btn i:hover {
+  cursor: pointer;
+  color: red;
+}
+.card1 hr,
+.card2 hr,
+.card3 hr,
+.card4 hr,
+.card5 hr,
+.card6 hr,
+.card7 hr,
+.card8 hr,
+.card9 hr,
+.card10 hr,
+.card11 hr,
+.card12 hr {
+  position: relative;
+  bottom: 70px;
+  width: 105%;
+  right: 10px;
+}
+.card1-content {
+  position: absolute;
+}
+.card1-content h4 {
+  right: 72px;
+  color: #60677f;
+}
+.card1-content h2 {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  right: 72px;
+  font-size: 14px;
+}
+.card1-content1 {
+  position: absolute;
+}
+.card1-content1 h4 {
+  right: 71px;
+  bottom: 235px;
+  font-size: 13px;
+}
+.card1-content1 h2 {
+  top: 20px;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-bottom: 180px;
+}
+.card1-content1 h3 {
+  position: relative;
+  bottom: 202px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #60677f;
+  font-size: 13px;
+  margin-left: 150px;
+}
+.card1-content1 h5 {
+  position: relative;
+  margin-left: 150px;
+  bottom: 247px;
+}
+
+.card2 h2,
+h4,
+.love-icon {
+  position: relative;
+}
+.card3 h2,
+h4,
+.love-icon,
+.card4 h2,
+h4,
+.love-icon,
+.card5 h2,
+h4,
+.love-icon,
+.card6 h2,
+h4,
+.love-icon,
+.card7 h2,
+h4,
+.love-icon,
+.card8 h2,
+h4,
+.love-icon,
+.card9 h2,
+h4,
+.love-icon,
+.card10 h2,
+h4,
+.love-icon,
+.card11 h2,
+h4,
+.love-icon,
+.card12 h2,
+h4,
+.love-icon {
+  position: relative;
+}
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img,
+.card7 img,
+.card8 img,
+.card9 img,
+.card10 img,
+.card11 img,
+.card12 img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card2 h2,
+.card3 h2,
+.card4 h2,
+.card5 h2,
+.card6 h2,
+.card7 h2,
+.card8 h2,
+.card9 h2,
+.card10 h2,
+.card11 h2,
+.card12 h2 {
+  margin-top: 23px;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #2c2f3a;
+  margin-left: 90px;
+  bottom: 98px;
+}
+.Technology2 {
+  position: absolute;
+  margin-top: 6px;
+  right: 205px;
+}
+.card11 .Technology2 {
+  position: absolute;
+  right: 258px;
+}
+.card2 .Technology2 {
+  position: absolute;
+  right: 215px;
+}
+.card4 .Technology2 {
+  position: absolute;
+  right: 216px;
+}
+.card2 h4,
+.card3 h4,
+.card4 h4,
+.card5 h4,
+.card7 h4,
+.card8 h4,
+.card9 h4,
+.card10 h4,
+.card11 h4,
+.card12 h4 {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #60677f;
+  margin-left: 90px;
+  bottom: 81px;
+}
+.card3 .btn i {
+  font-size: 20px;
+  height: 10px;
+}
+
+.card6 h4 {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #60677f;
+  margin-left: 90px;
+  bottom: 105px;
+}
+.card6-content h4 {
+  right: 72px;
+  margin-top: 40px;
+}
+.card6-content h2 {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  right: 72px;
+  font-size: 14px;
+  width: 350px;
+  bottom: 120px;
+}
+.card5 h4 {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #60677f;
+  margin-left: 90px;
+  bottom: 105px;
+}
+.card5-content h4 {
+  right: 72px;
+  margin-top: 40px;
+}
+.card5-content h2 {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  right: 72px;
+  font-size: 14px;
+  width: 350px;
+  bottom: 120px;
+}
+.card12 h4 {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #60677f;
+  margin-left: 90px;
+  bottom: 105px;
+}
+.card12-content h4 {
+  right: 72px;
+  margin-top: 40px;
+}
+.card12-content h2 {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  right: 72px;
+  font-size: 14px;
+  width: 350px;
+  bottom: 120px;
+}
+.card9-content h4 {
+  right: 72px;
+  margin-top: 20px;
+}
+.card9-content h2 {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  right: 72px;
+  font-size: 14px;
+  width: 350px;
+  bottom: 100px;
+}
+.card3-content h2 {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  right: 72px;
+  font-size: 14px;
+  width: 350px;
+  bottom: 100px;
+}
+.card2-content,
+.card3-content,
+.card4-content,
+.card5-content,
+.card6-content,
+.card7-content,
+.card8-content,
+.card9-content,
+.card10-content,
+.card11-content,
+.card12-content {
+  position: absolute;
+}
+.card2-content h4,
+.card3-content h4,
+.card4-content h4,
+.card5-content h4,
+.card7-content h4,
+.card8-content h4,
+.card10-content h4,
+.card11-content h4 {
+  right: 72px;
+  color: #60677f;
+}
+.card2-content h2,
+.card4-content h2,
+.card5-content h2,
+.card7-content h2,
+.card8-content h2,
+.card10-content h2,
+.card11-content h2 {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  right: 72px;
+  font-size: 14px;
+}
+.card2-content1,
+.card3-content1,
+.card4-content1,
+.card5-content1,
+.card6-content1,
+.card7-content1,
+.card8-content1,
+.card9-content1,
+.card10-content1,
+.card11-content1,
+.card12-content1 {
+  position: absolute;
+}
+.card2-content1 h4,
+.card3-content1 h4,
+.card4-content1 h4,
+.card5-content1 h4,
+.card6-content1 h4,
+.card7-content1 h4,
+.card8-content1 h4,
+.card9-content1 h4,
+.card10-content1 h4,
+.card11-content1 h4,
+.card12-content1 h4 {
+  right: 71px;
+  bottom: 235px;
+  font-size: 13px;
+}
+.card2-content1 h2,
+.card3-content1 h2,
+.card4-content1 h2,
+.card5-content1 h2,
+.card6-content1 h2,
+.card7-content1 h2,
+.card8-content1 h2,
+.card9-content1 h2,
+.card10-content1 h2,
+.card11-content1 h2,
+.card12-content1 h2 {
+  top: 20px;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-bottom: 180px;
+}
+.card2-content1 h3,
+.card3-content1 h3,
+.card4-content1 h3,
+.card5-content1 h3,
+.card6-content1 h3,
+.card7-content1 h3,
+.card8-content1 h3,
+.card9-content1 h3,
+.card10-content1 h3,
+.card11-content1 h3,
+.card12-content1 h3 {
+  position: relative;
+  bottom: 202px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #60677f;
+  font-size: 13px;
+  margin-left: 150px;
+}
+.card2-content1 h5,
+.card3-content1 h5,
+.card4-content1 h5,
+.card5-content1 h5,
+.card6-content1 h5,
+.card7-content1 h5,
+.card8-content1 h5,
+.card9-content1 h5,
+.card10-content1 h5,
+.card11-content1 h5,
+.card12-content1 h5 {
+  position: relative;
+  margin-left: 150px;
+  bottom: 247px;
+}
+
+.Showing-Page {
+  position: absolute;
+  top: 1440px;
+}
+.left-side h5 {
+  font-size: 16px;
+  color: #60677f;
+  font-weight: 400;
+  font-family: "Noto Sans";
+}
+.right-side {
+  position: absolute;
+  bottom: 1px;
+  left: 920px;
+}
+.right-side h5 {
+  position: relative;
+ margin-top: 0px;
+  width: 600px;
+  font-size: 16px;
+  color: #60677f;
+  font-weight: 400;
+  font-family: "Noto Sans";
+  cursor: pointer;
+}
+.right-side h5:hover {
+  color: #061447;
+}
+.right-side .one {
+  position: absolute;
+  margin-left: 30px;
+  height: 7px;
+  width: 7px;
+  display: inline-block;
+  text-align: center; 
+  line-height: 7px; 
+  border-radius: 50%;
+  background-color:#0f32b1;
+  color: white;
+  padding: 10px;
+  top: 5px;
+}
+ .second {
+  margin-left: 80px;
+  margin-right:50px ;
+  justify-content: space-between;
+  grid-auto-columns:100px ;
+}
+.second .dot {
+  position: relative;
+ font-size: 25px;
+ font-weight: 600;
+ bottom: 5px;
+}
+h5 .last{
+  color: #0f32b1;
+  font-family: "Noto Sans";
+  font-weight: 600;
+  cursor: pointer;
+ }
+ h5 .last:hover {
+  color: black;
+ }
+/* -----This is footer css code----- */
+
+.footer {
   position: absolute;
   background-color: #061447;
-  margin-bottom: 0;
+  bottom: 0px;
+  top: 2300px;
   padding: 40px 0 30px;
   width: 100%;
   height: 300px;
@@ -377,13 +1038,7 @@ footer {
 .col3 img {
   margin-top: 5px;
 }
-hr {
-  width: 88.5%;
-  border: 0;
-  border-bottom: 1px solid #d1d3dc;
-  margin-top: 15px;
-  margin-left: 92px;
-}
+
 .copyright {
   position: absolute;
   color: #d1d3dc;
@@ -407,5 +1062,38 @@ hr {
   position: relative;
   padding: 14px;
   top: 10px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
+.footer hr {
+  width: 88.5%;
+  border: 0;
+  border-bottom: 1px solid #d1d3dc;
+  margin-top: 15px;
+  margin-left: 92px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+  
+  header {
+    background-color: white;
+    padding: 10px ;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+  }
+  .logo-container img {
+    width: fit-content;
+  }
+
+}
+
