@@ -48,8 +48,11 @@ nav {
   list-style: none;
   display: flex;
   gap: 20px;
+  cursor: pointer;
 }
-
+.nav-links:hover {
+  color: salmon;
+}
 .nav-links li a {
   text-decoration: none;
   color: #60677f;
@@ -61,6 +64,16 @@ nav {
   color: #0f32b1;
   font-weight: bold;
 }
+.nav-links li a:hover {
+  color: salmon;
+}
+
+.select-arrow1:hover,
+.select-arrow2:hover {
+  background-color: salmon;
+  color: white;
+}
+
 .select-arrow1,
 .select-arrow2 {
   border: none;
@@ -89,7 +102,11 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 .signin-btn:hover {
+  color: black;
+  border: 1px solid salmon;
+  background-color: white;
   transform: scale(1.03);
+
 }
 
 .download-btn {
@@ -105,6 +122,8 @@ nav {
 }
 
 .download-btn:hover {
+  background-color: rgb(156, 172, 193) ;
+  border: none;
   transform: scale(1.03);
 }
 
@@ -123,6 +142,7 @@ nav {
   color: salmon;
   left: 60px;
   transform: translateX(16%);
+  cursor: pointer;
 }
 
 section {
@@ -209,6 +229,9 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .search-button button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid salmon;
   transform: scale(1.02);
 }
 .search-info {
@@ -357,6 +380,7 @@ hr1 {
   margin: 20px;
   grid-template-columns: repeat(3, 5fr);
   gap: 44px 44px;
+  
 }
 
 .card {
@@ -367,6 +391,7 @@ hr1 {
   padding: 10px;
   cursor: pointer;
 }
+
 .card1 h2,
 h4,
 .love-icon {
@@ -406,12 +431,24 @@ h4,
   right: 830px;
   height: 10px;
 }
+.card1 {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card1:hover {
+  border: 1.5px solid salmon;
+}
 .card2 .btn i {
   position: absolute;
   top: 25px;
   font-size: 20px;
   right: 380px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card2:hover {
+  border: 1.5px solid salmon;
 }
 .card3 .btn i {
   position: absolute;
@@ -419,6 +456,11 @@ h4,
   font-size: 20px;
   left: 1260px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card3:hover {
+  border: 1.5px solid salmon;
 }
 .card4 .btn i {
   position: absolute;
@@ -426,6 +468,11 @@ h4,
   font-size: 20px;
   left: 370px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card4:hover {
+  border: 1.5px solid salmon;
 }
 .card5 .btn i {
   position: absolute;
@@ -433,6 +480,11 @@ h4,
   font-size: 20px;
   left: 815px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card5:hover {
+  border: 1.5px solid salmon;
 }
 .card6 .btn i {
   position: absolute;
@@ -440,6 +492,11 @@ h4,
   font-size: 20px;
   left: 1263px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card6:hover {
+  border: 1.5px solid salmon;
 }
 .card7 .btn i {
   position: absolute;
@@ -447,6 +504,11 @@ h4,
   font-size: 20px;
   left: 360px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card7:hover {
+  border: 1.5px solid salmon;
 }
 .card8 .btn i {
   position: absolute;
@@ -454,6 +516,11 @@ h4,
   font-size: 20px;
   left: 815px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card8:hover {
+  border: 1.5px solid salmon;
 }
 .card9 .btn i {
   position: absolute;
@@ -461,6 +528,11 @@ h4,
   font-size: 20px;
   left: 1265px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card9:hover {
+  border: 1.5px solid salmon;
 }
 .card10 .btn i {
   position: absolute;
@@ -468,6 +540,11 @@ h4,
   font-size: 20px;
   left: 360px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card10:hover {
+  border: 1.5px solid salmon;
 }
 .card11 .btn i {
   position: absolute;
@@ -475,6 +552,11 @@ h4,
   font-size: 20px;
   left: 810px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card11:hover {
+  border: 1.5px solid salmon;
 }
 .card12 .btn i {
   position: absolute;
@@ -482,6 +564,11 @@ h4,
   font-size: 20px;
   left: 1260px;
   height: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card12:hover {
+  border: 1.5px solid salmon;
 }
 .card1 .btn i:hover,
 .card2 .btn i:hover,
@@ -495,8 +582,7 @@ h4,
 .card10 .btn i:hover,
 .card11 .btn i:hover,
 .card12 .btn i:hover {
-  cursor: pointer;
-  color: red;
+  transform: scale(1.1);
 }
 .card1 hr,
 .card2 hr,
@@ -893,9 +979,7 @@ h4,
   font-family: "Noto Sans";
   cursor: pointer;
 }
-.right-side h5:hover {
-  color: #061447;
-}
+
 .right-side .one {
   position: absolute;
   margin-left: 30px;
@@ -929,7 +1013,7 @@ h5 .last{
   cursor: pointer;
  }
  h5 .last:hover {
-  color: black;
+  color: salmon;
  }
 /* -----This is footer css code----- */
 
@@ -995,6 +1079,7 @@ h5 .last{
   margin-left: 780px;
   bottom: 110px;
   top: 40px;
+  cursor: pointer;
 }
 .col1 h3 {
   font-weight: 500;
@@ -1006,29 +1091,39 @@ h5 .last{
   font-size: 15px;
   line-height: 20px;
 }
+.col1 p:hover {
+  color: salmon;
+}
 .col2 {
   position: absolute;
   color: white;
   margin-left: 980px;
   bottom: 113px;
   top: 40px;
+  cursor: pointer;
 }
 .col2 h3 {
   font-weight: 500;
   font-size: 16px;
   font-family: "Noto Sans", sans-serif;
 }
+.col2 p:hover {
+  color: salmon;
+}
+
 .col2 p {
   color: #d1d3dc;
   font-size: 15px;
   line-height: 20px;
 }
+
 .col3 {
   position: absolute;
   color: white;
   margin-left: 1180px;
   bottom: 113px;
   top: 40px;
+
 }
 .col3 h3 {
   font-weight: 500;
@@ -1037,6 +1132,20 @@ h5 .last{
 }
 .col3 img {
   margin-top: 5px;
+}
+.col3-img1 img{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.col3-img1 img:hover {
+  transform: scale(1.2);
+}
+.col3-img2 img{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.col3-img2 img:hover {
+  transform: scale(1.1);
 }
 
 .copyright {
@@ -1063,6 +1172,11 @@ h5 .last{
   padding: 14px;
   top: 10px;
   margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.social-icons img:hover {
+  transform: scale(1.1);
 }
 .footer hr {
   width: 88.5%;
@@ -1072,28 +1186,4 @@ h5 .last{
   margin-left: 92px;
 }
 
-
-@media only screen and (max-width: 768px) {
-
-
-  
-  header {
-    background-color: white;
-    padding: 10px ;
-    top: 0;
-    position: sticky;
-    z-index: 1000;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 70px;
-  }
-  .logo-container img {
-    width: fit-content;
-  }
-
-}
 
