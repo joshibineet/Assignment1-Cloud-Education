@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   min-height: 300vh;
   font-family: "Noto Sans", sans-serif;
 }
@@ -337,13 +338,14 @@ select {
   margin: 190px 10px 100px 1150px;
 }
 .Sort-by button {
+  overflow-x: hidden;
   position: absolute;
   margin: 200px 10px 10px 1215px;
   border-radius: 8px;
   border: 1px solid #60677f;
   height: 40px;
   width: 177px;
-  bottom: 9px;
+  bottom: 20px;
   background-color: white;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
