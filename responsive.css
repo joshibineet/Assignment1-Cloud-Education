@@ -3,6 +3,18 @@
      height: 56px;
      width: 360px;
     }
+    header {
+      background-image: url(Images/3linedot\ \(1\).png);
+      background-repeat: no-repeat;
+      background-position: right center;
+       background-size: 30px;
+    }
+   .nav-links{
+  display: none;
+ }
+ .buttons {
+  display: none;
+ }
    .logo-container img {
      position: absolute;
      left: 10px;
@@ -55,6 +67,88 @@
    width: 350px;
    right: 35px;
    margin-bottom: 100px;
+   line-height: 10px;
  }
  }
- 
+ @media only screen and (max-width: 768px) {
+  .search-box {
+    background-image: url(Images/applyfilter.png);
+   background-repeat: no-repeat;
+   background-position: center ;
+   background-position-y: 100px;
+  }
+  
+  .search-box .input-icon {
+    left: 60px;
+    top: 53px;
+  }
+ input[type="text"] {
+  width: 205px;
+ }
+ .search-button button {
+  display: none;
+ }
+ }
+
+ @media only screen and (max-width: 768px) {
+  .search-info .info1,
+  .search-info .info2,
+  .search-info .info3,
+  .search-info .info4,
+  .search-info .info5,
+  .search-info .info6 {
+    display: none; 
+  }
+}
+@media only screen and (max-width: 768px) {
+  .colleges {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .card {
+    width: 100%; 
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: 600px;
+  }
+  .logo-title {
+    bottom: 580px;
+  }
+  p {
+    text-align: justify;
+  }
+  .col1 {
+    right: 300px;
+    margin-top: 200px;
+  }
+   h3 {
+    width: 100px;
+  }
+  .col2 {
+    right: 110px;
+    margin-top: 200px;
+  }
+  .col3 {
+    right: 300px;
+    margin-top: 200px;
+  }
+  hr {
+    position: relative;
+    top: 260px;
+    right: 80px;
+  }
+  .copyright {
+    position: relative;
+    top: 350px;
+    width: 100%;
+    text-align: justify;
+    right:90px ;
+  }
+  span img{
+    position: relative;
+    margin-right: 900px;
+  }
+}
